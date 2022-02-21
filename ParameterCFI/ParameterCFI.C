@@ -155,6 +155,31 @@ int main(int argc, char *argv[])
             fsensHea.write();
 
         }
+        if ((dvgchange<1e-8) &&(mag(jmixdegree/J1-1.0)<0.01))
+        {
+            dvg.write();
+            dvgPDE.write();
+            dvgHea.write();
+            
+            p.write();
+            U.write();
+            pa.write();
+            Ua.write();
+            pc.write();
+            Uc.write();
+            
+            alphac.write();
+            adalpha.write();
+            
+            gsens.write();
+            gsensPDE.write();
+            gsensHea.write();
+            
+            fsens.write();
+            fsensPDE.write();
+            fsensHea.write();
+            break;
+        }
 
         Info<< "ExecutionTime = " << runTime.elapsedCpuTime() << " s"
             << "  ClockTime = " << runTime.elapsedClockTime() << " s"

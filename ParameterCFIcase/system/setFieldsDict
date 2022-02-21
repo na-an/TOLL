@@ -38,7 +38,7 @@ regions
 
         fieldValues
         (
-            volScalarFieldValue dvg 0.5
+            volScalarFieldValue dvg 0.6
         );
     }
 

@@ -40,7 +40,7 @@ fsensHea=fsensm*drho;
 gsensHea=gsensm*drho;
 
 
-fvScalarMatrix Eqnf (-fvm::laplacian(Rmin*Rmin,fsensPDE)+fvm::Sp(1,fsensPDE)-fsens);
+fvScalarMatrix Eqnf (-fvm::laplacian(Rmin*Rmin,fsensPDE)+fvm::Sp(1,fsensPDE)-fsensHea);
 Eqnf.solve();
 
 fvScalarMatrix Eqng (-fvm::laplacian(Rmin*Rmin,gsensPDE)+fvm::Sp(1,gsensPDE)-gsensHea);
