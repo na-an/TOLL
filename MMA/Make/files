@@ -1,0 +1,2 @@
+MMA.C
+LIB = $(FOAM_USER_LIBBIN)/libMMA
