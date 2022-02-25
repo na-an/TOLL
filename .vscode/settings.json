@@ -7,6 +7,7 @@
         "**/constant/g": "OpenFOAM",
         "**/0/*": "OpenFOAM",
         "ParameterCFI.C": "cpp",
-        "adjoint_equation.H": "cpp"
+        "adjoint_equation.H": "cpp",
+        "MMA.C": "cpp"
     }
 }
