@@ -1,0 +1,3 @@
+parabolicVelocityUpFvPatchVectorField.C
+
+LIB = $(FOAM_USER_LIBBIN)/libparabolicVelocityUp
