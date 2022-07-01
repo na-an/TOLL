@@ -1,0 +1,6 @@
+foamListTimes -rm
+foamListTimes -rm -processor
+rm -rf nohup.out
+rm -rf *.txt
+rm -rf postProcessing/
+rm -rf processor*

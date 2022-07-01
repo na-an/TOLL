@@ -1,0 +1,10 @@
+UaOutlet/UaOutletFvPatchVectorField.C
+paOutlet/paOutletFvPatchScalarField.C
+CaOutlet/CaOutletFvPatchScalarField.C
+
+adjointOutletPressurePower/adjointOutletPressurePowerFvPatchScalarField.C
+adjointOutletVelocityPower/adjointOutletVelocityPowerFvPatchVectorField.C
+
+TOLL.C
+
+EXE = $(FOAM_USER_APPBIN)/TOLL

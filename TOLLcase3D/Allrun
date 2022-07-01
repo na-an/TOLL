@@ -1,0 +1,2 @@
+decomposePar
+nohup mpirun -np 4 TOLL -parallel &
